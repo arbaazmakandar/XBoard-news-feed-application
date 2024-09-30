@@ -1,0 +1,106 @@
+.body{
+    font-family: Montserrat;
+
+}
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    color: #252B42;
+    background-color:#FFFFFF;
+}
+
+
+.navbar{
+    border-bottom: 1px solid lightgrey;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+}
+
+.rectangle{
+    position: absolute;
+    width: 26px;
+    height: 7px;
+    left: 47px;
+    top: 29%;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+
+}
+
+.today{
+    width: 74px;
+    height: 32px;
+    top: 123px;
+    left: 116px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #252B42;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
+.authorAndDate {
+    color: grey;
+}
+
+#photo-gallery{
+    display: flex;
+}
+
+.carousel-control-next{
+    max-width: 15px;
+    border:0px;
+    height: 100%;
+    float: right; 
+    position: absolute; 
+    border-radius: 5px;
+    right: 0; 
+    /* background-color: lightgrey !important; */
+    color: black !important;
+}
+.accordion{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.subheading{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* .carousel-inner{
+    height: 80%;
+} */
+
+@media only screen and (max-width: 767px) {
+
+
+    .navbar{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .today{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .subheading{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .accordion{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+  }
